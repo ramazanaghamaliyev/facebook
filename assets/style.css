@@ -1,0 +1,22 @@
+body {
+  background-color: #e9ebee;
+  font-size: 28px;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.FB-Login {
+  height: 20%;
+  width: 20%;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+
+.description {
+  text-align: left;
+  margin-left: 225px;
+  /* Adjust margin to control space between icon and text */
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
