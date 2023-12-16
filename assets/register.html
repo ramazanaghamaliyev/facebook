@@ -1,0 +1,151 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-wrapper">
+      <div class="form-2">
+        <div class="whole">
+            <img class="x-image" src="https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/C6QZ-pcv3Bd.png" alt="" width="24" height="24" id="u_1_9_mF">
+            <h2 class="account" > Find your Account </h2>
+          <hr class="second" />
+        </div>
+        <div class="first">
+          Please enter your email or mobile number to search for your <br />
+          account.
+        </div>
+        <p class="Email"></p>
+        <input
+          type="text"
+          name=""
+          class="old-mail"
+          placeholder="Email or phone number"
+        />
+        <hr class="third"  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .signup-container {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 400px;
+        text-align: center;
+      }
+
+      #first-name,
+      #surname,
+      #mobile-email,
+      #new-password {
+        font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        line-height: 16px;
+        border-radius: 6px;
+      }
+      h2 {
+        color: #333;
+      }
+
+      form {
+        text-align: left;
+      }
+
+      input,
+      select,
+      button {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+      }
+
+      button {
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="signup-container">
+      <h2>Sign Up</h2>
+      <form action="#" method="post">
+        <input
+          type="text"
+          id="first-name"
+          name="first-name"
+          placeholder="First Name"
+          required
+        />
+
+        <input
+          type="text"
+          id="surname"
+          name="surname"
+          placeholder="Surname"
+          required
+        />
+
+        <input
+          type="text"
+          id="mobile-email"
+          name="mobile-email"
+          placeholder="Mobile Number or Email Address"
+          required
+        />
+
+        <input
+          type="password"
+          id="new-password"
+          name="new-password"
+          placeholder="New Password"
+          required
+        />
+
+        <input type="date" id="date-of-birth" name="date-of-birth" required />
+
+        <select id="gender" name="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+          <option value="custom">Custom</option>
+        </select>
+
+        <button type="submit">Sign Up</button>
+      </form>
+      <p>
+        It's quick and easy. By clicking Sign Up, you agree to our Terms. Learn
+        how we collect, use and share your data in our Privacy Policy and how we
+        use cookies and similar technology in our Cookies Policy. You may
+        receive SMS notifications from us and can opt out at any time.
+      </p>
+    </div>
+  </body>
+</html>
